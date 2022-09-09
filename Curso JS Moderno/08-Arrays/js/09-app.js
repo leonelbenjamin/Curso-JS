@@ -20,3 +20,10 @@ for (let i = 0; i < carrito.length; i++) {
 for (let i = 0; i < carrito.length; i++) {
     console.log(`${carrito[i].nombre} - Precio: ${carrito[i].precio}`);
 }
+
+//El foreach es un metodo para recorrer arrays  
+console.log('');
+carrito.forEach(function (producto) {
+    console.log(`${producto.nombre} -Precio ${producto.precio}`)
+
+})
